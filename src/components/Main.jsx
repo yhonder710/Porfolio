@@ -1,5 +1,5 @@
 export function Main (){
   return(
-    <div className="bg-blue-500">SI PEPE</div>
+    <div className="bg-indigo-600">SI PEPE</div>
   )
 }
