@@ -1,5 +1,9 @@
 export function Main (){
   return(
-    <main></main>
+    <main>
+      <div>
+
+      </div>
+    </main>
   )
 }
