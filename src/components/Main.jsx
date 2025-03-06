@@ -1,7 +1,6 @@
 export function Main (){
   return(
-    <Main>
-
-    </Main>
+    <main className="bg-[#91AC8F] w-full  pl-40 py-5">
+    </main>
   )
 }
