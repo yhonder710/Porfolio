@@ -1,15 +1,14 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleUser, faGem, faAddressBook, faStar } from '@fortawesome/free-solid-svg-icons';
+import { useState } from "react"
+
 
 export function Aside () {
+  const [open, setOpen] = useState(false)
+
+  const sidebar = open ? 'open on' : 'open'
+
   return (
-    <>
-    <aside className="bg-gray-900 w-10 sm:w-20 h-full px-5 py-10 text-left flex justify-between items-center flex-col fixed border-r-[1px] border-[#f5f5f5] shadow-2xs shadow-black">
-      <section className=""><FontAwesomeIcon className='text-4xl text-white' icon={faCircleUser} /></section>
-      <section className=""><FontAwesomeIcon className='text-4xl text-white' icon={faStar} /></section>
-      <section className=""><FontAwesomeIcon className='text-4xl text-white' icon={faAddressBook} /></section>
-      <section className=""><FontAwesomeIcon className='text-4xl text-white' icon={faGem} /></section>
+    <aside className={sidebar}>
+      <button className="bg-gray-950 w-12 h-12 text-2xl absolute right-[-15px] top-[50%] font-bold text-white cursor-pointer rounded-2xl border-2 border-white" onClick={() => setOpen(!open)}>🡢</button>
     </aside>
-    </>
   )
 }

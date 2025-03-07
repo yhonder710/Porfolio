@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@layer components{
+  .open{
+    @apply w-25 h-screen bg-gray-900 fixed border-r-2 border-white transition-all
+  }
+
+  .open.on{
+    @apply w-75
+  }
+}
