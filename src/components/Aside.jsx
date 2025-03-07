@@ -1,7 +1,11 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleUser, faGem, faAddressBook, faStar } from '@fortawesome/free-solid-svg-icons';
+import { useState } from "react"
+
 
 export function Aside () {
+  const [open, setOpen] = useState(false)
+
+  const sidebar = open ? 'open on' : 'open'
+
   return (
     <>
 <<<<<<< HEAD
@@ -18,6 +22,5 @@ export function Aside () {
       <section className=""><FontAwesomeIcon className='text-4xl text-white' icon={faGem} /></section>
 >>>>>>> 35bb750 (reformacion)
     </aside>
-    </>
   )
 }
