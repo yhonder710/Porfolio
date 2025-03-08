@@ -7,4 +7,12 @@
   .open.on{
     @apply w-75
   }
+
+  .link{
+    display: none;
+  }
+
+  .link.on{
+    display: block;
+  }
 }
