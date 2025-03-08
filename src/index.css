@@ -1,15 +1,17 @@
 @import "tailwindcss";
 @layer components{
   .open{
-    @apply w-25 h-screen bg-gray-900 fixed border-r-2 border-white transition-all
+    @apply w-25 h-screen bg-gray-900 fixed border-r-2 border-white transition-all shadow-2xs shadow-black
   }
 
   .open.on{
-    @apply w-75
+    @apply w-70
   }
 
   .link{
     display: none;
+    font-size: 2.3rem;
+
   }
 
   .link.on{
