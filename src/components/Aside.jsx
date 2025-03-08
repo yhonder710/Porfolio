@@ -22,7 +22,7 @@ export function Aside () {
           <Link link={link} text={'Contact'} icono={<FontAwesomeIcon icon={faEnvelope}/>}/>
         </ul>
       </nav>
-      <button className="bg-gray-950 w-12 h-12 text-2xl absolute right-[-15px] top-[50%] font-bold text-white cursor-pointer rounded-2xl border-2 border-white" onClick={() => setOpen(!open)}>{btn}</button>
+      <button className="bg-gray-950 w-12 h-12 text-2xl absolute right-[-25px] top-[50%] font-bold text-white cursor-pointer rounded-2xl border-2 border-white" onClick={() => setOpen(!open)}>{btn}</button>
     </aside>
     </>
   )

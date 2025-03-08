@@ -17,12 +17,4 @@
   .link.on{
     display: block;
   }
-
-  .link{
-    display: none;
-  }
-
-  .link.on{
-    display: block;
-  }
 }
