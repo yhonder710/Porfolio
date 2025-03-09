@@ -15,7 +15,7 @@ export function Aside () {
     <>
     <aside className={sidebar}>
       <nav className="h-screen flex text-white w-full justify-center">
-        <ul className="flex flex-col justify-around items-center text-4xl text-center">
+        <ul className="flex flex-col justify-evenly items-center text-4xl text-center">
           <Link link={link} text={'Inicio'} icono={<FontAwesomeIcon icon={faHouse}/>}/>
           <Link link={link} text={'Skill'} icono={<FontAwesomeIcon icon={faUser}/>}/>
           <Link link={link} text={'Projects'} icono={<FontAwesomeIcon icon={faStar}/>}/>
